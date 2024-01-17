@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.formInput{
+    display: block;
+    margin: auto;
+    margin-top: 15vw;
+    width: 700px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.formButton{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 81, 255);
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.formButton:hover{
+    transition: .2s;
+    box-shadow: 0px 0px 20px rgb(0, 81, 255);
+
+}
+
+.toDos{
+    background-color: rgb(255, 255, 251);
+    width: 620px;
+    height: 75px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.editButton , .deleteButton, .updateButton{
+    margin-left: 450px;
+    width: 75px;
+    height: 30px;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.updateButton{
+    margin-left: 20px;
+    background-color: green;
+}
+
+.updateButton:hover{
+    box-shadow: 0px 0px 5px green;
+    transition: .2s;
+}
+
+.deleteButton{
+    margin-left: 10px;
+    background-color: red;
+    
+}
+
+.editButton:hover{
+    box-shadow: 0px 0px 5px rgb(0, 81, 255);
+    transition: .2s;
+}
+
+.deleteButton:hover{
+    box-shadow: 0px 0px 5px red;
+    transition: .2s;
+}
+
+.elDiv{
+    position: absolute;
+    transition: .2s;
+}
+
+.inputEdite{
+    width: 400px;
+    height: 25px;
+    transition: .2s;
+}
